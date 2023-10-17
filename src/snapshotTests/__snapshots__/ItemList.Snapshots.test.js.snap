@@ -1,0 +1,541 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`displays 'Sorry, no results found' if the results length is not greater than 0 1`] = `
+<h5
+  className="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+>
+  Sorry, no results found
+</h5>
+`;
+
+exports[`displays a circular progress indicator when loading is set to true 1`] = `
+Array [
+  <div
+    className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-1qvgiw4-MuiGrid-root"
+  />,
+  <span
+    className="MuiCircularProgress-root MuiCircularProgress-indeterminate MuiCircularProgress-colorInherit css-62e83j-MuiCircularProgress-root"
+    role="progressbar"
+    style={
+      Object {
+        "height": 40,
+        "width": 40,
+      }
+    }
+  >
+    <svg
+      className="MuiCircularProgress-svg css-1idz92c-MuiCircularProgress-svg"
+      viewBox="22 22 44 44"
+    >
+      <circle
+        className="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate css-176wh8e-MuiCircularProgress-circle"
+        cx={44}
+        cy={44}
+        fill="none"
+        r={20.2}
+        strokeWidth={3.6}
+        style={Object {}}
+      />
+    </svg>
+  </span>,
+]
+`;
+
+exports[`displays a grid of cards if the results are populated 1`] = `
+Array [
+  <div
+    className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-1qvgiw4-MuiGrid-root"
+  >
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-14j1sok-MuiGrid-root"
+    >
+      <div
+        className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-v6rkc0-MuiPaper-root-MuiCard-root"
+        color="#e3f2fd"
+      >
+        <div
+          className="MuiCardHeader-root css-185gdzj-MuiCardHeader-root"
+        >
+          <div
+            className="MuiCardHeader-content css-1qbkelo-MuiCardHeader-content"
+          >
+            <span
+              className="MuiTypography-root MuiTypography-h5 MuiCardHeader-title css-1qvr50w-MuiTypography-root"
+            >
+              Adele
+            </span>
+          </div>
+        </div>
+        <div
+          className="MuiCardContent-root css-15mopy6-MuiCardContent-root"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1 css-1pnmrwp-MuiTypography-root"
+          >
+            Artist: 
+            Adele
+            , Media Type:
+             
+            artist
+          </p>
+        </div>
+        <img
+          className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-p85cnc-MuiCardMedia-root"
+          src="https://placehold.co/130x130"
+        />
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-14j1sok-MuiGrid-root"
+    >
+      <div
+        className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-v6rkc0-MuiPaper-root-MuiCard-root"
+        color="#e3f2fd"
+      >
+        <div
+          className="MuiCardHeader-root css-185gdzj-MuiCardHeader-root"
+        >
+          <div
+            className="MuiCardHeader-content css-1qbkelo-MuiCardHeader-content"
+          >
+            <span
+              className="MuiTypography-root MuiTypography-h5 MuiCardHeader-title css-1qvr50w-MuiTypography-root"
+            >
+              30
+            </span>
+          </div>
+        </div>
+        <div
+          className="MuiCardContent-root css-15mopy6-MuiCardContent-root"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1 css-1pnmrwp-MuiTypography-root"
+          >
+            Artist: 
+            Adele
+            , Media Type:
+             
+            album
+          </p>
+        </div>
+        <img
+          className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-p85cnc-MuiCardMedia-root"
+          src="https://is5-ssl.mzstatic.com/image/thumb/Music115/v4/73/6d/7c/736d7cfb-c79d-c9a9-4170-5e71d008dea1/886449666430.jpg/100x100bb.jpg"
+        />
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-14j1sok-MuiGrid-root"
+    >
+      <div
+        className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-v6rkc0-MuiPaper-root-MuiCard-root"
+        color="#e3f2fd"
+      >
+        <div
+          className="MuiCardHeader-root css-185gdzj-MuiCardHeader-root"
+        >
+          <div
+            className="MuiCardHeader-content css-1qbkelo-MuiCardHeader-content"
+          >
+            <span
+              className="MuiTypography-root MuiTypography-h5 MuiCardHeader-title css-1qvr50w-MuiTypography-root"
+            >
+              Adele
+            </span>
+          </div>
+        </div>
+        <div
+          className="MuiCardContent-root css-15mopy6-MuiCardContent-root"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1 css-1pnmrwp-MuiTypography-root"
+          >
+            Artist: 
+            Adele Bloemendaal
+            , Media Type:
+             
+            album
+          </p>
+        </div>
+        <img
+          className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-p85cnc-MuiCardMedia-root"
+          src="https://is3-ssl.mzstatic.com/image/thumb/Music128/v4/7a/a5/60/7aa56002-8f5f-7d29-db2e-62dcb1933f72/8714221024876.png/100x100bb.jpg"
+        />
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-14j1sok-MuiGrid-root"
+    >
+      <div
+        className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-v6rkc0-MuiPaper-root-MuiCard-root"
+        color="#e3f2fd"
+      >
+        <div
+          className="MuiCardHeader-root css-185gdzj-MuiCardHeader-root"
+        >
+          <div
+            className="MuiCardHeader-content css-1qbkelo-MuiCardHeader-content"
+          >
+            <span
+              className="MuiTypography-root MuiTypography-h5 MuiCardHeader-title css-1qvr50w-MuiTypography-root"
+            >
+              Skyfall - Single
+            </span>
+          </div>
+        </div>
+        <div
+          className="MuiCardContent-root css-15mopy6-MuiCardContent-root"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1 css-1pnmrwp-MuiTypography-root"
+          >
+            Artist: 
+            Adele
+            , Media Type:
+             
+            track
+          </p>
+        </div>
+        <img
+          className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-p85cnc-MuiCardMedia-root"
+          src="https://is4-ssl.mzstatic.com/image/thumb/Music125/v4/b3/fe/cf/b3fecf76-0359-8e14-0651-4b101fc68a3f/886443673632.jpg/100x100bb.jpg"
+        />
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-14j1sok-MuiGrid-root"
+    >
+      <div
+        className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-v6rkc0-MuiPaper-root-MuiCard-root"
+        color="#e3f2fd"
+      >
+        <div
+          className="MuiCardHeader-root css-185gdzj-MuiCardHeader-root"
+        >
+          <div
+            className="MuiCardHeader-content css-1qbkelo-MuiCardHeader-content"
+          >
+            <span
+              className="MuiTypography-root MuiTypography-h5 MuiCardHeader-title css-1qvr50w-MuiTypography-root"
+            >
+              Skyfall - Single
+            </span>
+          </div>
+        </div>
+        <div
+          className="MuiCardContent-root css-15mopy6-MuiCardContent-root"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1 css-1pnmrwp-MuiTypography-root"
+          >
+            Artist: 
+            Adele
+            , Media Type:
+             
+            album
+          </p>
+        </div>
+        <img
+          className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-p85cnc-MuiCardMedia-root"
+          src="https://is4-ssl.mzstatic.com/image/thumb/Music125/v4/b3/fe/cf/b3fecf76-0359-8e14-0651-4b101fc68a3f/886443673632.jpg/100x100bb.jpg"
+        />
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-14j1sok-MuiGrid-root"
+    >
+      <div
+        className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-v6rkc0-MuiPaper-root-MuiCard-root"
+        color="#e3f2fd"
+      >
+        <div
+          className="MuiCardHeader-root css-185gdzj-MuiCardHeader-root"
+        >
+          <div
+            className="MuiCardHeader-content css-1qbkelo-MuiCardHeader-content"
+          >
+            <span
+              className="MuiTypography-root MuiTypography-h5 MuiCardHeader-title css-1qvr50w-MuiTypography-root"
+            >
+              Emeli Sandé
+            </span>
+          </div>
+        </div>
+        <div
+          className="MuiCardContent-root css-15mopy6-MuiCardContent-root"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1 css-1pnmrwp-MuiTypography-root"
+          >
+            Artist: 
+            Emeli Sandé
+            , Media Type:
+             
+            artist
+          </p>
+        </div>
+        <img
+          className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-p85cnc-MuiCardMedia-root"
+          src="https://placehold.co/130x130"
+        />
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-14j1sok-MuiGrid-root"
+    >
+      <div
+        className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-v6rkc0-MuiPaper-root-MuiCard-root"
+        color="#e3f2fd"
+      >
+        <div
+          className="MuiCardHeader-root css-185gdzj-MuiCardHeader-root"
+        >
+          <div
+            className="MuiCardHeader-content css-1qbkelo-MuiCardHeader-content"
+          >
+            <span
+              className="MuiTypography-root MuiTypography-h5 MuiCardHeader-title css-1qvr50w-MuiTypography-root"
+            >
+              30
+            </span>
+          </div>
+        </div>
+        <div
+          className="MuiCardContent-root css-15mopy6-MuiCardContent-root"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1 css-1pnmrwp-MuiTypography-root"
+          >
+            Artist: 
+            Adele
+            , Media Type:
+             
+            track
+          </p>
+        </div>
+        <img
+          className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-p85cnc-MuiCardMedia-root"
+          src="https://is5-ssl.mzstatic.com/image/thumb/Music115/v4/73/6d/7c/736d7cfb-c79d-c9a9-4170-5e71d008dea1/886449666430.jpg/100x100bb.jpg"
+        />
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-14j1sok-MuiGrid-root"
+    >
+      <div
+        className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-v6rkc0-MuiPaper-root-MuiCard-root"
+        color="#e3f2fd"
+      >
+        <div
+          className="MuiCardHeader-root css-185gdzj-MuiCardHeader-root"
+        >
+          <div
+            className="MuiCardHeader-content css-1qbkelo-MuiCardHeader-content"
+          >
+            <span
+              className="MuiTypography-root MuiTypography-h5 MuiCardHeader-title css-1qvr50w-MuiTypography-root"
+            >
+              Our Version of Events
+            </span>
+          </div>
+        </div>
+        <div
+          className="MuiCardContent-root css-15mopy6-MuiCardContent-root"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1 css-1pnmrwp-MuiTypography-root"
+          >
+            Artist: 
+            Emeli Sandé
+            , Media Type:
+             
+            album
+          </p>
+        </div>
+        <img
+          className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-p85cnc-MuiCardMedia-root"
+          src="https://is4-ssl.mzstatic.com/image/thumb/Music112/v4/0c/30/5f/0c305f8e-01ba-615b-5790-4c40a32ffa7b/13UABIM59453.rgb.jpg/100x100bb.jpg"
+        />
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-14j1sok-MuiGrid-root"
+    >
+      <div
+        className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-v6rkc0-MuiPaper-root-MuiCard-root"
+        color="#e3f2fd"
+      >
+        <div
+          className="MuiCardHeader-root css-185gdzj-MuiCardHeader-root"
+        >
+          <div
+            className="MuiCardHeader-content css-1qbkelo-MuiCardHeader-content"
+          >
+            <span
+              className="MuiTypography-root MuiTypography-h5 MuiCardHeader-title css-1qvr50w-MuiTypography-root"
+            >
+              21
+            </span>
+          </div>
+        </div>
+        <div
+          className="MuiCardContent-root css-15mopy6-MuiCardContent-root"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1 css-1pnmrwp-MuiTypography-root"
+          >
+            Artist: 
+            Adele
+            , Media Type:
+             
+            album
+          </p>
+        </div>
+        <img
+          className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-p85cnc-MuiCardMedia-root"
+          src="https://is5-ssl.mzstatic.com/image/thumb/Music122/v4/62/82/a5/6282a515-c95c-9e5e-3eef-4ef7b75639ca/191404113868.png/100x100bb.jpg"
+        />
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-14j1sok-MuiGrid-root"
+    >
+      <div
+        className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-v6rkc0-MuiPaper-root-MuiCard-root"
+        color="#e3f2fd"
+      >
+        <div
+          className="MuiCardHeader-root css-185gdzj-MuiCardHeader-root"
+        >
+          <div
+            className="MuiCardHeader-content css-1qbkelo-MuiCardHeader-content"
+          >
+            <span
+              className="MuiTypography-root MuiTypography-h5 MuiCardHeader-title css-1qvr50w-MuiTypography-root"
+            >
+              25
+            </span>
+          </div>
+        </div>
+        <div
+          className="MuiCardContent-root css-15mopy6-MuiCardContent-root"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1 css-1pnmrwp-MuiTypography-root"
+          >
+            Artist: 
+            Adele
+            , Media Type:
+             
+            album
+          </p>
+        </div>
+        <img
+          className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-p85cnc-MuiCardMedia-root"
+          src="https://is2-ssl.mzstatic.com/image/thumb/Music116/v4/08/8c/24/088c2405-2e33-801b-5c38-e967f2c01e69/191404113974.png/100x100bb.jpg"
+        />
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-14j1sok-MuiGrid-root"
+    >
+      <div
+        className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-v6rkc0-MuiPaper-root-MuiCard-root"
+        color="#e3f2fd"
+      >
+        <div
+          className="MuiCardHeader-root css-185gdzj-MuiCardHeader-root"
+        >
+          <div
+            className="MuiCardHeader-content css-1qbkelo-MuiCardHeader-content"
+          >
+            <span
+              className="MuiTypography-root MuiTypography-h5 MuiCardHeader-title css-1qvr50w-MuiTypography-root"
+            >
+              30
+            </span>
+          </div>
+        </div>
+        <div
+          className="MuiCardContent-root css-15mopy6-MuiCardContent-root"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1 css-1pnmrwp-MuiTypography-root"
+          >
+            Artist: 
+            Adele
+            , Media Type:
+             
+            track
+          </p>
+        </div>
+        <img
+          className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-p85cnc-MuiCardMedia-root"
+          src="https://is5-ssl.mzstatic.com/image/thumb/Music115/v4/73/6d/7c/736d7cfb-c79d-c9a9-4170-5e71d008dea1/886449666430.jpg/100x100bb.jpg"
+        />
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-14j1sok-MuiGrid-root"
+    >
+      <div
+        className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-v6rkc0-MuiPaper-root-MuiCard-root"
+        color="#e3f2fd"
+      >
+        <div
+          className="MuiCardHeader-root css-185gdzj-MuiCardHeader-root"
+        >
+          <div
+            className="MuiCardHeader-content css-1qbkelo-MuiCardHeader-content"
+          >
+            <span
+              className="MuiTypography-root MuiTypography-h5 MuiCardHeader-title css-1qvr50w-MuiTypography-root"
+            >
+              Mad Skillet
+            </span>
+          </div>
+        </div>
+        <div
+          className="MuiCardContent-root css-15mopy6-MuiCardContent-root"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1 css-1pnmrwp-MuiTypography-root"
+          >
+            Artist: 
+            John Medeski's Mad Skillet
+            , Media Type:
+             
+            track
+          </p>
+        </div>
+        <img
+          className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-p85cnc-MuiCardMedia-root"
+          src="https://is2-ssl.mzstatic.com/image/thumb/Music118/v4/6f/11/dd/6f11dd24-4893-85d6-2bc4-75b37e4a8373/193483022581.jpg/100x100bb.jpg"
+        />
+      </div>
+    </div>
+  </div>,
+  <button
+    className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-sizeMedium MuiButton-textSizeMedium css-1d3f8j8-MuiButtonBase-root-MuiButton-root"
+    disabled={false}
+    onBlur={[Function]}
+    onContextMenu={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    Load More...
+  </button>,
+]
+`;
+
+exports[`displays nothing if initial is set to true 1`] = `null`;
